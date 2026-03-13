@@ -96,7 +96,7 @@ export function WaitlistSection() {
     <section
       ref={sectionRef}
       id="waitlist"
-      className="relative overflow-hidden px-6 py-24"
+      className="relative overflow-hidden px-6 py-12 sm:py-16 md:py-24"
     >
       <SectionAccent
         variant="center"

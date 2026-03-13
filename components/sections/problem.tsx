@@ -63,14 +63,14 @@ export function ProblemSection() {
     <section
       ref={sectionRef}
       id="problem"
-      className="relative overflow-hidden px-6 py-24"
+      className="relative overflow-hidden px-6 py-12 sm:py-16 md:py-24"
     >
       <SectionAccent
         variant="right"
         className="absolute -top-8 -right-12 w-80 text-foreground/5"
       />
       <div className="mx-auto max-w-6xl">
-        <div className="mx-auto mb-16 max-w-2xl text-center">
+        <div className="mx-auto mb-10 max-w-2xl text-center sm:mb-12 md:mb-16">
           <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
             Your ERP Holds the Answers.
             <br />

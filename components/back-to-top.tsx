@@ -21,7 +21,7 @@ export function BackToTop() {
       variant="outline"
       size="icon"
       aria-label="Back to top"
-      className={`fixed right-6 bottom-6 z-50 backdrop-blur-md transition-opacity duration-300 ${visible ? "opacity-100" : "pointer-events-none opacity-0"}`}
+      className={`fixed right-4 bottom-4 z-50 backdrop-blur-md transition-opacity duration-300 sm:right-6 sm:bottom-6 ${visible ? "opacity-100" : "pointer-events-none opacity-0"}`}
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
     >
       <ArrowUpIcon />

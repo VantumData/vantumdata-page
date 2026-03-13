@@ -34,7 +34,10 @@ export function SiteHeader() {
           <span className="font-serif text-lg tracking-tight">VantumIQP</span>
         </a>
         <Button size="sm" asChild>
-          <a href="#waitlist">Request Early Access</a>
+          <a href="#waitlist">
+            <span className="sm:hidden">Early Access</span>
+            <span className="hidden sm:inline">Request Early Access</span>
+          </a>
         </Button>
       </div>
     </header>

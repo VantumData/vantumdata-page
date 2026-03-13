@@ -73,9 +73,9 @@ export function WhyItMattersSection() {
   )
 
   return (
-    <section ref={sectionRef} id="why" className="px-6 py-24">
+    <section ref={sectionRef} id="why" className="px-6 py-12 sm:py-16 md:py-24">
       <div className="mx-auto max-w-6xl">
-        <div className="mx-auto mb-16 max-w-2xl text-center">
+        <div className="mx-auto mb-10 max-w-2xl text-center sm:mb-12 md:mb-16">
           <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">
             From Data Lag to Decision Advantage
           </h2>

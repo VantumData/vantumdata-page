@@ -32,7 +32,7 @@ export function FaqSection() {
   )
 
   return (
-    <section ref={sectionRef} id="faq" className="px-6 py-24">
+    <section ref={sectionRef} id="faq" className="px-6 py-12 sm:py-16 md:py-24">
       <div className="mx-auto max-w-3xl">
         <h2
           data-animate="faq"

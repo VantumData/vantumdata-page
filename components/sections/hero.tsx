@@ -77,7 +77,7 @@ export function HeroSection() {
     <section
       ref={sectionRef}
       id="hero"
-      className="relative -mt-14 flex min-h-[calc(90vh+3.5rem)] items-center overflow-hidden px-6 pt-[calc(6rem+3.5rem)] pb-24"
+      className="relative -mt-14 flex min-h-[calc(75vh+3.5rem)] items-center overflow-hidden px-6 pt-[calc(4rem+3.5rem)] pb-12 sm:pb-16 md:min-h-[calc(90vh+3.5rem)] md:pt-[calc(6rem+3.5rem)] md:pb-24"
     >
       {/* Abstract constellation background */}
       <HeroConstellation className="pointer-events-none absolute inset-0 h-full w-full text-foreground/8" />
@@ -85,7 +85,7 @@ export function HeroSection() {
       {/* Subtle radial glow */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,var(--color-glow),transparent)]" />
 
-      <div className="relative mx-auto grid max-w-6xl gap-16 lg:grid-cols-[1fr_1fr] lg:items-center">
+      <div className="relative mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1fr_1fr] lg:items-center lg:gap-16">
         {/* Content */}
         <div ref={contentRef} className="flex max-w-xl flex-col gap-6">
           <Badge variant="outline" className="w-fit font-sans">
@@ -96,7 +96,7 @@ export function HeroSection() {
             The Intelligence Layer Your ERP Was Missing
           </h1>
 
-          <p className="text-lg text-muted-foreground sm:text-xl">
+          <p className="text-base text-muted-foreground sm:text-lg lg:text-xl">
             VantumIQP transforms fragmented ERP data into strategic visibility,
             actionable insights, and faster business decisions — so leadership
             can act with clarity, not guesswork.

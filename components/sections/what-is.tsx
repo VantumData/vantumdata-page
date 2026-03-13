@@ -28,7 +28,11 @@ export function WhatIsSection() {
   )
 
   return (
-    <section ref={sectionRef} id="what-is" className="px-6 py-24">
+    <section
+      ref={sectionRef}
+      id="what-is"
+      className="px-6 py-12 sm:py-16 md:py-24"
+    >
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl">
           <h2
