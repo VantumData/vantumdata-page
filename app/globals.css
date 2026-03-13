@@ -148,4 +148,6 @@ body::before {
 .header-scrolled {
   background-color: oklch(0.147 0.004 49.3 / 0.8);
   border-bottom-color: oklch(1 0 0 / 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }

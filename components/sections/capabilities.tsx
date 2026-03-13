@@ -4,6 +4,7 @@ import { useRef } from "react"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { gsap, useGSAP } from "@/lib/gsap"
+import { SectionAccent } from "@/components/graphics/section-accent"
 import {
   ChartBarIcon,
   BroadcastIcon,
@@ -74,7 +75,15 @@ export function CapabilitiesSection() {
   )
 
   return (
-    <section ref={sectionRef} id="capabilities" className="px-6 py-24">
+    <section
+      ref={sectionRef}
+      id="capabilities"
+      className="relative overflow-hidden px-6 py-24"
+    >
+      <SectionAccent
+        variant="left"
+        className="absolute -bottom-6 -left-10 w-72 text-foreground/5"
+      />
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">

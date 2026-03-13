@@ -22,6 +22,7 @@ import {
   FieldError,
 } from "@/components/ui/field"
 import { gsap, useGSAP } from "@/lib/gsap"
+import { SectionAccent } from "@/components/graphics/section-accent"
 import { PaperPlaneTiltIcon, CheckCircleIcon } from "@phosphor-icons/react"
 
 const FORMSPREE_ENDPOINT = `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_ID}`
@@ -92,7 +93,15 @@ export function WaitlistSection() {
   }
 
   return (
-    <section ref={sectionRef} id="waitlist" className="px-6 py-24">
+    <section
+      ref={sectionRef}
+      id="waitlist"
+      className="relative overflow-hidden px-6 py-24"
+    >
+      <SectionAccent
+        variant="center"
+        className="absolute top-1/2 left-1/2 w-96 -translate-x-1/2 -translate-y-1/2 text-foreground/4"
+      />
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-xl">
           <div className="mb-10 text-center">

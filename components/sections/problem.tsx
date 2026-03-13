@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { gsap, useGSAP } from "@/lib/gsap"
+import { SectionAccent } from "@/components/graphics/section-accent"
 import {
   PuzzlePieceIcon,
   ClockCounterClockwiseIcon,
@@ -59,7 +60,15 @@ export function ProblemSection() {
   )
 
   return (
-    <section ref={sectionRef} id="problem" className="px-6 py-24">
+    <section
+      ref={sectionRef}
+      id="problem"
+      className="relative overflow-hidden px-6 py-24"
+    >
+      <SectionAccent
+        variant="right"
+        className="absolute -top-8 -right-12 w-80 text-foreground/5"
+      />
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <h2 className="mb-4 text-3xl tracking-tight sm:text-4xl">

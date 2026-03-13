@@ -21,9 +21,27 @@ const fontMono = Geist_Mono({
 const siteUrl = "https://vantumiqp.com"
 
 export const metadata: Metadata = {
-  title: "VantumIQP — ERP Data Intelligence Platform | Early Access",
+  title: {
+    template: "%s — VantumIQP",
+    default: "VantumIQP — ERP Data Intelligence Platform | Early Access",
+  },
   description:
     "VantumIQP transforms ERP data into strategic visibility, actionable intelligence, and faster business decisions. Join the early access waitlist.",
+  keywords: [
+    "ERP data intelligence",
+    "ERP analytics",
+    "ERP data platform",
+    "enterprise resource planning intelligence",
+    "ERP visibility",
+    "ERP decision making",
+    "SAP analytics",
+    "Dynamics 365 analytics",
+    "NetSuite analytics",
+    "Odoo analytics",
+    "operational intelligence",
+    "business intelligence ERP",
+    "VantumIQP",
+  ],
   metadataBase: new URL(siteUrl),
   alternates: { canonical: "/" },
   openGraph: {
@@ -34,25 +52,23 @@ export const metadata: Metadata = {
     siteName: "VantumIQP",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "VantumIQP — ERP Data Intelligence Platform",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "VantumIQP — ERP Data Intelligence Platform",
     description:
       "Turn ERP complexity into decision advantage. Join early access.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 }
 
@@ -75,6 +91,7 @@ export default function RootLayout({
     >
       <head>
         <StructuredData />
+        <link rel="author" href="/humans.txt" />
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>

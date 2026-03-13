@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { gsap, useGSAP } from "@/lib/gsap"
+import { HeroConstellation } from "@/components/graphics/hero-constellation"
 import {
   ChartLineUpIcon,
   TrendUpIcon,
@@ -76,8 +77,11 @@ export function HeroSection() {
     <section
       ref={sectionRef}
       id="hero"
-      className="relative flex min-h-[90vh] items-center overflow-hidden px-6 py-24"
+      className="relative -mt-14 flex min-h-[calc(90vh+3.5rem)] items-center overflow-hidden px-6 pt-[calc(6rem+3.5rem)] pb-24"
     >
+      {/* Abstract constellation background */}
+      <HeroConstellation className="pointer-events-none absolute inset-0 h-full w-full text-foreground/8" />
+
       {/* Subtle radial glow */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_-10%,var(--color-glow),transparent)]" />
 

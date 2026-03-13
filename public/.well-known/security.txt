@@ -1,0 +1,6 @@
+# Security Policy for VantumIQP (https://vantumiqp.com)
+# Operated by Actaer
+
+Contact: mailto:hello@vantumiqp.com
+Preferred-Languages: en
+Canonical: https://vantumiqp.com/.well-known/security.txt
