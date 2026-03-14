@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { useGSAP, ScrollTrigger } from "@/lib/gsap"
 
 export function SiteHeader() {
@@ -33,12 +34,15 @@ export function SiteHeader() {
           <Logo className="h-7 w-auto" />
           <span className="font-serif text-lg tracking-tight">VantumIQP</span>
         </a>
-        <Button size="sm" asChild>
-          <a href="#waitlist">
-            <span className="sm:hidden">Early Access</span>
-            <span className="hidden sm:inline">Request Early Access</span>
-          </a>
-        </Button>
+        <div className="flex items-center gap-1">
+          <ThemeToggle />
+          <Button size="sm" asChild>
+            <a href="#waitlist">
+              <span className="sm:hidden">Early Access</span>
+              <span className="hidden sm:inline">Request Early Access</span>
+            </a>
+          </Button>
+        </div>
       </div>
     </header>
   )

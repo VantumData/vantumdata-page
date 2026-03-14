@@ -51,6 +51,7 @@ export function WaitlistSection() {
     formState: { errors, isSubmitting },
   } = useForm<WaitlistFormData>({
     resolver: zodResolver(waitlistSchema),
+    mode: "onTouched",
   })
 
   useGSAP(
