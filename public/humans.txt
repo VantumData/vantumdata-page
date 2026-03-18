@@ -2,7 +2,7 @@
 
 Product: VantumIQP
 Company: Actaer
-Contact: hello@vantumiqp.com
+Contact: office@actaer.com
 Site: https://vantumiqp.com
 
 /* SITE */

@@ -49,7 +49,7 @@ VantumIQP is in development and accepting early access requests. Early access pa
 - Full Content: https://vantumiqp.com/llms-full.txt
 - Privacy Policy: https://vantumiqp.com/privacy
 - Terms: https://vantumiqp.com/terms
-- Contact: hello@vantumiqp.com
+- Contact: office@actaer.com
 - LinkedIn: https://www.linkedin.com/company/actaer
 `
 

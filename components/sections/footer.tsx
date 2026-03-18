@@ -26,7 +26,7 @@ export function SiteFooter() {
             className="flex flex-wrap gap-6 font-sans text-sm text-muted-foreground"
           >
             <a
-              href="mailto:hello@vantumiqp.com"
+              href="mailto:office@actaer.com"
               className="transition-colors hover:text-foreground"
             >
               Contact

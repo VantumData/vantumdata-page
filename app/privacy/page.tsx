@@ -110,10 +110,10 @@ export default function PrivacyPage() {
           <p className="mt-3">
             To exercise any of these rights, please contact us at{" "}
             <a
-              href="mailto:hello@vantumiqp.com"
+              href="mailto:office@actaer.com"
               className="text-foreground underline underline-offset-4 transition-colors hover:text-primary"
             >
-              hello@vantumiqp.com
+              office@actaer.com
             </a>
             .
           </p>
@@ -143,10 +143,10 @@ export default function PrivacyPage() {
           <p>
             For questions about this privacy policy or your data, contact us at{" "}
             <a
-              href="mailto:hello@vantumiqp.com"
+              href="mailto:office@actaer.com"
               className="text-foreground underline underline-offset-4 transition-colors hover:text-primary"
             >
-              hello@vantumiqp.com
+              office@actaer.com
             </a>
             .
           </p>

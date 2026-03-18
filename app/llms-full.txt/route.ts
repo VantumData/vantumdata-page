@@ -146,7 +146,7 @@ VantumIQP is currently in development and accepting early access requests. Reque
 - Early Access: https://vantumiqp.com/#waitlist
 - Privacy Policy: https://vantumiqp.com/privacy
 - Terms: https://vantumiqp.com/terms
-- Contact: hello@vantumiqp.com
+- Contact: office@actaer.com
 - LinkedIn: https://www.linkedin.com/company/actaer
 
 ---
