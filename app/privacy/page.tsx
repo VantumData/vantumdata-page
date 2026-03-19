@@ -1,8 +1,6 @@
 import type { Metadata } from "next"
-import Link from "next/link"
-import { ArrowLeftIcon } from "@phosphor-icons/react"
 
-import { Button } from "@/components/ui/button"
+import { BackToHome } from "@/components/back-to-home"
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -15,12 +13,7 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-12 sm:py-16 md:py-24">
-      <Button variant="ghost" size="sm" asChild>
-        <Link href="/">
-          <ArrowLeftIcon data-icon="inline-start" />
-          Back to Home
-        </Link>
-      </Button>
+      <BackToHome />
 
       <h1 className="mb-8 text-3xl tracking-tight sm:text-4xl">
         Privacy Policy
