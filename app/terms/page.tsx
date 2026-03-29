@@ -5,7 +5,7 @@ import { BackToHome } from "@/components/back-to-home"
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Terms and conditions governing the use of VantumIQP, the ERP data intelligence platform operated by Actaer.",
+    "Terms and conditions governing the use of VantumData, the ERP data intelligence platform operated by Actaer.",
   alternates: { canonical: "/terms" },
   robots: { index: true, follow: true },
 }
@@ -27,8 +27,8 @@ export default function TermsPage() {
           <h2 className="mb-3">1. Introduction</h2>
           <p>
             These Terms &amp; Conditions (&ldquo;Terms&rdquo;) govern your
-            access to and use of the VantumIQP website and services, operated by{" "}
-            <strong>Actaer</strong>. By accessing or using our website, you
+            access to and use of the VantumData website and services, operated
+            by <strong>Actaer</strong>. By accessing or using our website, you
             agree to be bound by these Terms. If you do not agree, please do not
             use our website.
           </p>
@@ -37,7 +37,7 @@ export default function TermsPage() {
         <section>
           <h2 className="mb-3">2. Description of Service</h2>
           <p>
-            VantumIQP is an ERP data intelligence platform currently in
+            VantumData is an ERP data intelligence platform currently in
             development. The website provides information about the platform and
             allows visitors to request early access. The platform and its
             features are subject to change prior to and after launch.
@@ -57,9 +57,9 @@ export default function TermsPage() {
           <h2 className="mb-3">4. Early Access Waitlist</h2>
           <p>
             Submitting an early access request does not guarantee access to the
-            VantumIQP platform. We reserve the right to grant or deny access at
+            VantumData platform. We reserve the right to grant or deny access at
             our sole discretion. Submission of the form constitutes consent to
-            receive communications from Actaer related to VantumIQP.
+            receive communications from Actaer related to VantumData.
           </p>
         </section>
 

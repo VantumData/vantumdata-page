@@ -43,7 +43,7 @@ export function ErpEcosystemSection() {
             Built for the ERP Systems You Run
           </h2>
           <p data-animate="erp" className="mb-10 text-lg text-muted-foreground">
-            VantumIQP is architecting connector-based ingestion pipelines for
+            VantumData is architecting connector-based ingestion pipelines for
             the ERP ecosystems that power modern business operations.
           </p>
 
@@ -73,7 +73,7 @@ export function ErpEcosystemSection() {
             </p>
             <p>
               A connector-based architecture designed for extensibility, so
-              VantumIQP can meet your data where it lives.
+              VantumData can meet your data where it lives.
             </p>
           </div>
         </div>

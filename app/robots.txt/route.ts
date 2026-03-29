@@ -23,7 +23,7 @@ Allow: /
 User-Agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://vantumiqp.com/sitemap.xml
+Sitemap: https://vantumdata.com/sitemap.xml
 `
 
 export function GET() {

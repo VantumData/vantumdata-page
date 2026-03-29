@@ -39,21 +39,20 @@ export function WhatIsSection() {
             data-animate="what-is"
             className="mb-6 text-3xl tracking-tight sm:text-4xl"
           >
-            VantumIQP: Strategic Intelligence for ERP Data
+            VantumData: Strategic Intelligence for ERP Data
           </h2>
 
           <div className="flex flex-col gap-6 text-lg text-muted-foreground">
             <p data-animate="what-is">
-              VantumIQP — the Vantum Intelligence Query Platform — is an
-              intelligence layer designed to sit over your existing ERP system.
-              It ingests, interprets, and transforms operational and financial
-              data into decision-ready insight, giving leaders the visibility
-              they need to act with confidence.
+              VantumData is an intelligence layer designed to sit over your
+              existing ERP system. It ingests, interprets, and transforms
+              operational and financial data into decision-ready insight, giving
+              leaders the visibility they need to act with confidence.
             </p>
 
             <p data-animate="what-is">
               Unlike traditional BI tools that require manual configuration and
-              return static reports, VantumIQP is built for live intelligence.
+              return static reports, VantumData is built for live intelligence.
               It monitors business signals across your ERP data, surfaces
               anomalies and trends, and delivers clarity that moves at the speed
               of your operations.
@@ -75,7 +74,7 @@ export function WhatIsSection() {
               Your ERP
             </Badge>
             <ArrowRightIcon className="size-5 shrink-0 rotate-90 text-muted-foreground sm:rotate-0" />
-            <Badge className="px-4 py-1.5 font-sans text-sm">VantumIQP</Badge>
+            <Badge className="px-4 py-1.5 font-sans text-sm">VantumData</Badge>
             <ArrowRightIcon className="size-5 shrink-0 rotate-90 text-muted-foreground sm:rotate-0" />
             <Badge variant="outline" className="px-4 py-1.5 font-sans text-sm">
               Decision Advantage

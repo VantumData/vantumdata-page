@@ -97,7 +97,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-base text-muted-foreground sm:text-lg lg:text-xl">
-            VantumIQP transforms fragmented ERP data into strategic visibility,
+            VantumData transforms fragmented ERP data into strategic visibility,
             actionable insights, and faster business decisions — so leadership
             can act with clarity, not guesswork.
           </p>

@@ -12,7 +12,7 @@ export function SiteFooter() {
             <a href="/" className="flex items-center gap-2.5">
               <Logo className="h-8 w-auto" />
               <span className="font-serif text-lg tracking-tight">
-                VantumIQP
+                VantumData
               </span>
             </a>
             <p className="max-w-xs text-sm text-muted-foreground">

@@ -1,8 +1,8 @@
-const content = `# VantumIQP — Full Site Content
+const content = `# VantumData — Full Site Content
 
-> VantumIQP (Vantum Intelligence Query Platform) is an ERP data intelligence platform that transforms enterprise resource planning data into strategic visibility, actionable insights, and faster business decisions.
+> VantumData is an ERP data intelligence platform that transforms enterprise resource planning data into strategic visibility, actionable insights, and faster business decisions.
 
-VantumIQP is a product of Actaer.
+VantumData is a product of Actaer.
 
 ---
 
@@ -24,15 +24,15 @@ Leaders discover margin erosion, fulfillment issues, and cash flow gaps weeks af
 
 ---
 
-## What is VantumIQP?
+## What is VantumData?
 
-VantumIQP — the Vantum Intelligence Query Platform — is an intelligence layer designed to sit over your existing ERP system. It ingests, interprets, and transforms operational and financial data into decision-ready insight, giving leaders the visibility they need to act with confidence.
+VantumData is an intelligence layer designed to sit over your existing ERP system. It ingests, interprets, and transforms operational and financial data into decision-ready insight, giving leaders the visibility they need to act with confidence.
 
-Unlike traditional BI tools that require manual configuration and return static reports, VantumIQP is built for live intelligence. It monitors business signals across your ERP data, surfaces anomalies and trends, and delivers clarity that moves at the speed of your operations.
+Unlike traditional BI tools that require manual configuration and return static reports, VantumData is built for live intelligence. It monitors business signals across your ERP data, surfaces anomalies and trends, and delivers clarity that moves at the speed of your operations.
 
 This is not another dashboard. It is a strategic visibility engine — purpose-built for the complexity of enterprise resource planning data.
 
-**Architecture:** Your ERP → VantumIQP → Decision Advantage
+**Architecture:** Your ERP → VantumData → Decision Advantage
 
 ---
 
@@ -62,20 +62,20 @@ Give executives and board-level stakeholders the validated, current visibility t
 
 ## Supported ERP Systems
 
-VantumIQP is architecting connector-based ingestion pipelines for the ERP ecosystems that power modern business operations:
+VantumData is architecting connector-based ingestion pipelines for the ERP ecosystems that power modern business operations:
 
 - SAP
 - Microsoft Dynamics 365
 - NetSuite
 - Odoo
 
-Planned support for both cloud-hosted and on-premise ERP deployments — because enterprise infrastructure is rarely one-size-fits-all. A connector-based architecture designed for extensibility, so VantumIQP can meet your data where it lives.
+Planned support for both cloud-hosted and on-premise ERP deployments — because enterprise infrastructure is rarely one-size-fits-all. A connector-based architecture designed for extensibility, so VantumData can meet your data where it lives.
 
 ---
 
 ## Planned Capabilities
 
-VantumIQP is being built to deliver a new standard of ERP data intelligence:
+VantumData is being built to deliver a new standard of ERP data intelligence:
 
 ### Executive-Ready Visibility
 Consolidated views built for leadership — not analysts. See what matters at a glance.
@@ -111,41 +111,41 @@ Explore your ERP data with powerful querying — without needing to build custom
 
 ## Frequently Asked Questions
 
-### What is VantumIQP?
-VantumIQP (Vantum Intelligence Query Platform) is an ERP data intelligence platform that transforms raw ERP data into strategic visibility, actionable insights, and faster business decision-making. It acts as an intelligence layer over your existing ERP system — bridging the gap between complex ERP data and the real-time insight that operations and finance leaders need to make informed decisions.
+### What is VantumData?
+VantumData is an ERP data intelligence platform that transforms raw ERP data into strategic visibility, actionable insights, and faster business decision-making. It acts as an intelligence layer over your existing ERP system — bridging the gap between complex ERP data and the real-time insight that operations and finance leaders need to make informed decisions.
 
-### Who is VantumIQP for?
-VantumIQP is designed for operations leaders, CFOs, COOs, ERP managers, heads of data, digital transformation teams, and private equity operating teams. It serves any organization that needs better visibility into ERP-driven business operations — from mid-market companies to large enterprises running complex multi-module ERP environments.
+### Who is VantumData for?
+VantumData is designed for operations leaders, CFOs, COOs, ERP managers, heads of data, digital transformation teams, and private equity operating teams. It serves any organization that needs better visibility into ERP-driven business operations — from mid-market companies to large enterprises running complex multi-module ERP environments.
 
-### Which ERP systems will VantumIQP support?
-VantumIQP is building toward support for major ERP ecosystems including SAP, Microsoft Dynamics 365, NetSuite, and Odoo. Its connector-based architecture is designed for broad compatibility, enabling integration with both established enterprise platforms and emerging ERP solutions.
+### Which ERP systems will VantumData support?
+VantumData is building toward support for major ERP ecosystems including SAP, Microsoft Dynamics 365, NetSuite, and Odoo. Its connector-based architecture is designed for broad compatibility, enabling integration with both established enterprise platforms and emerging ERP solutions.
 
-### Can VantumIQP work with cloud and on-premise ERP environments?
-Yes. VantumIQP is being architected to support both cloud-hosted and on-premise ERP deployments. Given that many enterprises operate hybrid ERP infrastructure, VantumIQP's flexible ingestion pipelines are designed to meet your data where it lives — regardless of hosting model.
+### Can VantumData work with cloud and on-premise ERP environments?
+Yes. VantumData is being architected to support both cloud-hosted and on-premise ERP deployments. Given that many enterprises operate hybrid ERP infrastructure, VantumData's flexible ingestion pipelines are designed to meet your data where it lives — regardless of hosting model.
 
-### Is VantumIQP only for large enterprises?
-No. VantumIQP is designed for mid-market and enterprise organizations alike. Any business that relies on ERP data for operational and financial decisions can benefit from an intelligence layer — whether running a single-instance ERP or a multi-entity, multi-module environment.
+### Is VantumData only for large enterprises?
+No. VantumData is designed for mid-market and enterprise organizations alike. Any business that relies on ERP data for operational and financial decisions can benefit from an intelligence layer — whether running a single-instance ERP or a multi-entity, multi-module environment.
 
 ### What does early access mean?
-Early access means you will be among the first to preview VantumIQP, provide feedback that shapes the platform, and gain priority onboarding when the product launches. Early access participants help influence product direction and receive dedicated support during the onboarding process.
+Early access means you will be among the first to preview VantumData, provide feedback that shapes the platform, and gain priority onboarding when the product launches. Early access participants help influence product direction and receive dedicated support during the onboarding process.
 
-### How is VantumIQP different from traditional BI tools and dashboards?
-Traditional business intelligence tools require manual configuration and return static reports. VantumIQP is purpose-built for ERP data and delivers live intelligence — continuously monitoring business signals, surfacing anomalies and trends, and providing decision-ready insight that moves at the speed of your operations. It is a strategic visibility engine, not another dashboard.
+### How is VantumData different from traditional BI tools and dashboards?
+Traditional business intelligence tools require manual configuration and return static reports. VantumData is purpose-built for ERP data and delivers live intelligence — continuously monitoring business signals, surfacing anomalies and trends, and providing decision-ready insight that moves at the speed of your operations. It is a strategic visibility engine, not another dashboard.
 
 ---
 
 ## Early Access
 
-VantumIQP is currently in development and accepting early access requests. Request early access at https://vantumiqp.com/#waitlist
+VantumData is currently in development and accepting early access requests. Request early access at https://vantumdata.com/#waitlist
 
 ---
 
 ## Links
 
-- Website: https://vantumiqp.com
-- Early Access: https://vantumiqp.com/#waitlist
-- Privacy Policy: https://vantumiqp.com/privacy
-- Terms: https://vantumiqp.com/terms
+- Website: https://vantumdata.com
+- Early Access: https://vantumdata.com/#waitlist
+- Privacy Policy: https://vantumdata.com/privacy
+- Terms: https://vantumdata.com/terms
 - Contact: office@actaer.com
 - LinkedIn: https://www.linkedin.com/company/actaer
 

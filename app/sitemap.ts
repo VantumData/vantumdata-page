@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next"
 
-const baseUrl = "https://vantumiqp.com"
+const baseUrl = "https://vantumdata.com"
 
 /**
- * Sitemap for vantumiqp.com
+ * Sitemap for vantumdata.com
  *
  * To add a new page, append an entry to the `pages` array below.
  * Next.js generates /sitemap.xml automatically from this file.

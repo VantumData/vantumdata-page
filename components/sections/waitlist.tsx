@@ -116,7 +116,7 @@ export function WaitlistSection() {
               data-animate="waitlist"
               className="text-lg text-muted-foreground"
             >
-              VantumIQP is opening early access to a select group of
+              VantumData is opening early access to a select group of
               forward-thinking operations and finance leaders. Request your spot
               below.
             </p>
@@ -128,7 +128,7 @@ export function WaitlistSection() {
                 Request Early Access
               </CardTitle>
               <CardDescription>
-                We&rsquo;ll reach out with details as VantumIQP approaches
+                We&rsquo;ll reach out with details as VantumData approaches
                 launch. No spam, no fluff — just a direct line to early access.
               </CardDescription>
             </CardHeader>
@@ -139,7 +139,7 @@ export function WaitlistSection() {
                   <div className="flex flex-col gap-2">
                     <p className="text-lg">You&rsquo;re on the list.</p>
                     <p className="text-muted-foreground">
-                      Thank you for your interest in VantumIQP. We&rsquo;ll be
+                      Thank you for your interest in VantumData. We&rsquo;ll be
                       in touch as early access opens.
                     </p>
                   </div>

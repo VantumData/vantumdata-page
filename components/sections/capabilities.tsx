@@ -90,7 +90,7 @@ export function CapabilitiesSection() {
             What&rsquo;s Coming
           </h2>
           <p className="text-lg text-muted-foreground">
-            VantumIQP is being built to deliver a new standard of ERP data
+            VantumData is being built to deliver a new standard of ERP data
             intelligence. Here is a preview of the capabilities on the roadmap.
           </p>
         </div>

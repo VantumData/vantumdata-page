@@ -19,15 +19,15 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
-const siteUrl = "https://vantumiqp.com"
+const siteUrl = "https://vantumdata.com"
 
 export const metadata: Metadata = {
   title: {
-    template: "%s — VantumIQP",
-    default: "VantumIQP — ERP Data Intelligence Platform | Early Access",
+    template: "%s — VantumData",
+    default: "VantumData — ERP Data Intelligence Platform | Early Access",
   },
   description:
-    "VantumIQP transforms ERP data into strategic visibility, actionable intelligence, and faster business decisions. Join the early access waitlist.",
+    "VantumData transforms ERP data into strategic visibility, actionable intelligence, and faster business decisions. Join the early access waitlist.",
   keywords: [
     "ERP data intelligence",
     "ERP analytics",
@@ -41,22 +41,22 @@ export const metadata: Metadata = {
     "Odoo analytics",
     "operational intelligence",
     "business intelligence ERP",
-    "VantumIQP",
+    "VantumData",
   ],
   metadataBase: new URL(siteUrl),
   alternates: { canonical: "/" },
   openGraph: {
-    title: "VantumIQP — ERP Data Intelligence Platform",
+    title: "VantumData — ERP Data Intelligence Platform",
     description:
-      "Turn ERP complexity into decision advantage. VantumIQP is the intelligence layer your business operations need.",
+      "Turn ERP complexity into decision advantage. VantumData is the intelligence layer your business operations need.",
     url: siteUrl,
-    siteName: "VantumIQP",
+    siteName: "VantumData",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "VantumIQP — ERP Data Intelligence Platform",
+    title: "VantumData — ERP Data Intelligence Platform",
     description:
       "Turn ERP complexity into decision advantage. Join early access.",
   },

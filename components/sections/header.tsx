@@ -32,7 +32,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
         <a href="/" className="flex items-center gap-2 text-foreground">
           <Logo className="h-7 w-auto" />
-          <span className="font-serif text-lg tracking-tight">VantumIQP</span>
+          <span className="font-serif text-lg tracking-tight">VantumData</span>
         </a>
         <div className="flex items-center gap-1">
           <ThemeToggle />

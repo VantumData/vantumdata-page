@@ -5,7 +5,7 @@ import { BackToHome } from "@/components/back-to-home"
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for VantumIQP, the ERP data intelligence platform operated by Actaer. Learn how we collect, use, and protect your information.",
+    "Privacy policy for VantumData, the ERP data intelligence platform operated by Actaer. Learn how we collect, use, and protect your information.",
   alternates: { canonical: "/privacy" },
   robots: { index: true, follow: true },
 }
@@ -26,11 +26,11 @@ export default function PrivacyPage() {
         <section>
           <h2 className="mb-3">1. Who We Are</h2>
           <p>
-            VantumIQP is a product of <strong>Actaer</strong>. In this policy,
+            VantumData is a product of <strong>Actaer</strong>. In this policy,
             &ldquo;we,&rdquo; &ldquo;us,&rdquo; and &ldquo;our&rdquo; refer to
             Actaer and its subsidiaries. This policy explains how we collect,
             use, and protect your personal information when you interact with
-            the VantumIQP website and services.
+            the VantumData website and services.
           </p>
         </section>
 
@@ -61,7 +61,7 @@ export default function PrivacyPage() {
           <ul className="list-inside list-disc space-y-1.5 pl-2">
             <li>Process and manage early access requests</li>
             <li>
-              Communicate with you about VantumIQP, including product updates
+              Communicate with you about VantumData, including product updates
               and launch information
             </li>
             <li>Improve our website and services</li>

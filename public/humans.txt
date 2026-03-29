@@ -1,9 +1,9 @@
 /* TEAM */
 
-Product: VantumIQP
+Product: VantumData
 Company: Actaer
 Contact: office@actaer.com
-Site: https://vantumiqp.com
+Site: https://vantumdata.com
 
 /* SITE */
 
